@@ -11,7 +11,24 @@ import SwiftUI
 struct ContinuedLearningExApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+          //ObservableObjectExample(testData: TestData())
+            //EnvironmentExample().environmentObject(UserSettings())
+            //GeometryReaderBoot(point: 5)
+            //GeometryReaderTest()
+            //DownloadingImageBoot()
+            //DownloadEscapeBoot()
+            //DownloadEscapeAdvance()
+            //WeakSelfExample()
+            //ViewBuilderBootCamp()
+            //AsyncAwait()
+            //ActorEx()
+            //TaskAsyn_0407()
+            //TaskCancel_0407()
+            //TaskCancel()
+            //TaskAdvanceSwiftUI()
+            TaskRandomGenerate()
+            
         }
     }
 }
