@@ -82,7 +82,7 @@ class DownloadwithEscapingViewModelAd: ObservableObject {
                 //2022-6월-3일: 이것은 10초 뒤에 클로저가 실행이 된다. 이것은 async 타스크로 기다리지 않고 큐에 요청을 한다. 10초 뒤에 메인에서 실행이 된다.
                 DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                     //이것을 약한 참조이고 메모리 leak을 방지할 수 있다. 기다리는 동안 화면을 빠져나오면
-                    //같이 deinit를 하게 된다.
+                    //같이 deinit를 하게 된다.  결국 self는 vm = DownloadwithEscapingViewModelAd() 에서 vm이 되고 이것에 postsAd에 값을 주면 화면을 다시 그리게 된다. 
                     [weak self] in self?.postsAd = newPostAd
                 }
                 

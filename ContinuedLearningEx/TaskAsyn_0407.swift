@@ -15,16 +15,25 @@ struct TaskAsyn_0407: View {
             .onAppear {
                 Task {
                     await executeTask()
+                    print("executeTask()")
                 }
             }
     }
 }
 
 func executeTask() async {
-    let basicTask = Task {
+    let basicTask = Task { () -> String in
+        try await Task.sleep(nanoseconds: 5 * 1_000_000_000)
         return "This is the result of the task"
+        
     }
-    print(await basicTask.value)
+    
+    do {
+        try await print(basicTask.value)
+    }
+    catch {
+        print(error)
+    }
 }
 
 struct TaskAsyn_0407_Previews: PreviewProvider {

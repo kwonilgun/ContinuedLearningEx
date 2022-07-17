@@ -24,6 +24,7 @@
 		7634ACEB275C999E00FCCE70 /* StatePrivateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634ACEA275C999E00FCCE70 /* StatePrivateExample.swift */; };
 		7634ACED275CA02100FCCE70 /* ObservableObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634ACEC275CA02100FCCE70 /* ObservableObjectExample.swift */; };
 		7634ACEF275CA7EC00FCCE70 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634ACEE275CA7EC00FCCE70 /* NextView.swift */; };
+		763C33CA286A77A000ABA8B7 /* AppStorageEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763C33C9286A77A000ABA8B7 /* AppStorageEx.swift */; };
 		76409737284D95CA001E3124 /* TaskAdvanceSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76409736284D95CA001E3124 /* TaskAdvanceSwiftUI.swift */; };
 		76409739284DA521001E3124 /* TaskRandomGenerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76409738284DA521001E3124 /* TaskRandomGenerate.swift */; };
 		76461F3027FDA692009677E2 /* ActorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76461F2F27FDA692009677E2 /* ActorEx.swift */; };
@@ -46,10 +47,12 @@
 		767260C0275F76E10019ECC8 /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 767260BE275F76E10019ECC8 /* bird.mp3 */; };
 		767260C2275F85FA0019ECC8 /* HapticBootEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767260C1275F85FA0019ECC8 /* HapticBootEx.swift */; };
 		7676486E2765702E00CBAB4D /* DownloadEscapeAdvance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676486D2765702E00CBAB4D /* DownloadEscapeAdvance.swift */; };
+		767839B92883C79D002FC9E8 /* AppleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767839B82883C79D002FC9E8 /* AppleStore.swift */; };
 		767F641827FBFB3300610246 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F641727FBFB3300610246 /* AsyncAwait.swift */; };
 		76827B7F27FE77F300C3FF54 /* TaskAsyn_0407.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76827B7E27FE77F300C3FF54 /* TaskAsyn_0407.swift */; };
 		76827B8127FE7BEA00C3FF54 /* TaskCancel_0407.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76827B8027FE7BEA00C3FF54 /* TaskCancel_0407.swift */; };
 		76C1EE09275DCCC400E16134 /* EnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C1EE08275DCCC400E16134 /* EnvironmentExample.swift */; };
+		76EA18812872FB7D00755D75 /* CombinePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EA18802872FB7D00755D75 /* CombinePublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +74,7 @@
 		7634ACEA275C999E00FCCE70 /* StatePrivateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePrivateExample.swift; sourceTree = "<group>"; };
 		7634ACEC275CA02100FCCE70 /* ObservableObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectExample.swift; sourceTree = "<group>"; };
 		7634ACEE275CA7EC00FCCE70 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
+		763C33C9286A77A000ABA8B7 /* AppStorageEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageEx.swift; sourceTree = "<group>"; };
 		76409736284D95CA001E3124 /* TaskAdvanceSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAdvanceSwiftUI.swift; sourceTree = "<group>"; };
 		76409738284DA521001E3124 /* TaskRandomGenerate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRandomGenerate.swift; sourceTree = "<group>"; };
 		76461F2F27FDA692009677E2 /* ActorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorEx.swift; sourceTree = "<group>"; };
@@ -93,10 +97,13 @@
 		767260BE275F76E10019ECC8 /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
 		767260C1275F85FA0019ECC8 /* HapticBootEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticBootEx.swift; sourceTree = "<group>"; };
 		7676486D2765702E00CBAB4D /* DownloadEscapeAdvance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadEscapeAdvance.swift; sourceTree = "<group>"; };
+		767839B82883C79D002FC9E8 /* AppleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStore.swift; sourceTree = "<group>"; };
+		767839BA2883CF58002FC9E8 /* AppleStoreWatch.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppleStoreWatch.storekit; sourceTree = "<group>"; };
 		767F641727FBFB3300610246 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		76827B7E27FE77F300C3FF54 /* TaskAsyn_0407.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAsyn_0407.swift; sourceTree = "<group>"; };
 		76827B8027FE7BEA00C3FF54 /* TaskCancel_0407.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCancel_0407.swift; sourceTree = "<group>"; };
 		76C1EE08275DCCC400E16134 /* EnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentExample.swift; sourceTree = "<group>"; };
+		76EA18802872FB7D00755D75 /* CombinePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinePublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +143,7 @@
 				76269E42275A068D0013CF4B /* ScrollViewReaderBoot.swift */,
 				765EB685275A344C0072EDBE /* GeometryReaderBoot.swift */,
 				765EB687275A424E0072EDBE /* MultipleSheetBoot.swift */,
+				76EA18802872FB7D00755D75 /* CombinePublisher.swift */,
 				765FC505275B93A6003AE33E /* MaskBoot.swift */,
 				7628725A2761F7B10003D4E0 /* ButtonStateEx.swift */,
 				7634ACEE275CA7EC00FCCE70 /* NextView.swift */,
@@ -149,6 +157,8 @@
 				76827B7E27FE77F300C3FF54 /* TaskAsyn_0407.swift */,
 				76827B8027FE7BEA00C3FF54 /* TaskCancel_0407.swift */,
 				765F6581284D4DB2006E3508 /* TaskCancel.swift */,
+				767839B82883C79D002FC9E8 /* AppleStore.swift */,
+				767839BA2883CF58002FC9E8 /* AppleStoreWatch.storekit */,
 				76409736284D95CA001E3124 /* TaskAdvanceSwiftUI.swift */,
 				76409738284DA521001E3124 /* TaskRandomGenerate.swift */,
 				767260BC275F76B80019ECC8 /* Sounds */,
@@ -168,6 +178,7 @@
 				765A3DA2284C2B2500153CAD /* ColorExtension.swift */,
 				76269E3227598FCB0013CF4B /* Assets.xcassets */,
 				76269E3427598FCB0013CF4B /* Preview Content */,
+				763C33C9286A77A000ABA8B7 /* AppStorageEx.swift */,
 			);
 			path = ContinuedLearningEx;
 			sourceTree = "<group>";
@@ -310,8 +321,10 @@
 				76827B7F27FE77F300C3FF54 /* TaskAsyn_0407.swift in Sources */,
 				76269E3127598FCA0013CF4B /* ContentView.swift in Sources */,
 				7628725B2761F7B10003D4E0 /* ButtonStateEx.swift in Sources */,
+				76EA18812872FB7D00755D75 /* CombinePublisher.swift in Sources */,
 				7628726A276319820003D4E0 /* DownloadImagesViewModel.swift in Sources */,
 				7634ACEB275C999E00FCCE70 /* StatePrivateExample.swift in Sources */,
+				763C33CA286A77A000ABA8B7 /* AppStorageEx.swift in Sources */,
 				7628726C27631BF90003D4E0 /* PhotoModelDataService.swift in Sources */,
 				766DCEB22760705C00523992 /* GeometryReaderTest.swift in Sources */,
 				76409737284D95CA001E3124 /* TaskAdvanceSwiftUI.swift in Sources */,
@@ -334,6 +347,7 @@
 				7662888D27635DF7005418D5 /* DownloadEscapeBoot.swift in Sources */,
 				765EB686275A344C0072EDBE /* GeometryReaderBoot.swift in Sources */,
 				7676486E2765702E00CBAB4D /* DownloadEscapeAdvance.swift in Sources */,
+				767839B92883C79D002FC9E8 /* AppleStore.swift in Sources */,
 				765F6582284D4DB2006E3508 /* TaskCancel.swift in Sources */,
 				76269E43275A068D0013CF4B /* ScrollViewReaderBoot.swift in Sources */,
 				76C1EE09275DCCC400E16134 /* EnvironmentExample.swift in Sources */,

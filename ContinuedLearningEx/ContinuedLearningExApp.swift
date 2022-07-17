@@ -23,11 +23,12 @@ struct ContinuedLearningExApp: App {
             //ViewBuilderBootCamp()
             //AsyncAwait()
             //ActorEx()
-            //TaskAsyn_0407()
+            TaskAsyn_0407()
             //TaskCancel_0407()
             //TaskCancel()
             //TaskAdvanceSwiftUI()
-            TaskRandomGenerate()
+            //TaskRandomGenerate()
+            //CombinePublisher()
             
         }
     }
